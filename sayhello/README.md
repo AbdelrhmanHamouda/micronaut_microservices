@@ -1,4 +1,9 @@
-## Feature http-client documentation
+# Say Hello Microservice
+A very simple and basic microservice that provide one endpoint under ```/sayhello/message``` 
 
-- [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+# How to run
+```shell
+$>> ./gradlew clean build
+$>> java -jar build/libs/sayhello-0.1-all.jar 
+$>> open -a "Google Chrome"  http://localhost:8080/sayhello/message 
+```
