@@ -1,2 +1,2 @@
-# micronaut_microservices
+# micronaut microservices
 A collection of micronaut microservices
